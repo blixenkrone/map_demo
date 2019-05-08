@@ -95,7 +95,7 @@ export class MapService implements OnInit, OnDestroy {
       clusterSize: 20,
     }
     ]
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaGVsbG9ieXJkIiwiYSI6ImNqNjBwZmhvczBsOTgyd2xndnV6NnZ1amkifQ.hA6pS4UEEELKHWjHCs2B_A';
+    mapboxgl.accessToken = 'XXXXXXXXXX';
     const mapClass = document.querySelector('.map-container');
     const mapId = mapClass ? mapClass.getAttribute('id') : this.setMapId(definedMapId);
     this.mapSwitch(mapId, center); // Map type switch
